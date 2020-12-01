@@ -1,3 +1,4 @@
 {
-    "jwtPrivateKey": "dogluv_jwtPrivateKey"
+    "jwtPrivateKey": "dogluv_jwtPrivateKey",
+    "db":"dogluv_db"
 }
