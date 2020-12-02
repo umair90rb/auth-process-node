@@ -9,6 +9,7 @@ const dogs = require('../routes/dogs');
 const payments = require('../routes/payments');
 const services = require('../routes/services');
 const requests = require('../routes/requests');
+const offers = require('../routes/offers');
 const error = require('../middleware/error');
 
 module.exports = function(app){
@@ -23,6 +24,7 @@ module.exports = function(app){
     app.use('/api/payments', payments);
     app.use('/api/services', services);
     app.use('/api/requests', requests);
+    app.use('/api/offers', offers);
 
     //should be at last
     app.use(error);

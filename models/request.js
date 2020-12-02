@@ -16,7 +16,7 @@ const requestSchema = new mongoose.Schema({
     children:{
         type: [childrenSchema],
     },
-    additionPeople:{
+    additionalPeople:{
         type: String,
     },
     responsibleForDogCare:{
@@ -27,7 +27,7 @@ const requestSchema = new mongoose.Schema({
         type: Boolean,
         required: true
     },
-    isDogExperience:{
+    isDogCareExperience:{
         type: Boolean,
         required: true
     },
@@ -88,13 +88,22 @@ const requestSchema = new mongoose.Schema({
 
 const Request = mongoose.model('Request', requestSchema);
 
+function validateChildren(child) {
+    const schema = {
+        name: Joi.string().required(),
+        age: Joi.number().required()
+    };
+
+    return Joi.validate(child, schema);
+}
+
 function validateRequest(request) {
     const schema = {
-        children: Joi.string(),
-        additionPeople: Joi.string().required(),
+        children: Joi.array(),
+        additionalPeople: Joi.string().required(),
         responsibleForDogCare: Joi.string().required(),
         isAnyOneAlergic: Joi.any().allow('yes', 'no').required(),
-        isDogExperience: Joi.any().allow('yes', 'no').required(),
+        isDogCareExperience: Joi.any().allow('yes', 'no').required(),
         petCareIfUserIll: Joi.string().required(),
         whyPetAdopt: Joi.string().required(),
         houseType: Joi.string().required(),
@@ -115,3 +124,4 @@ function validateRequest(request) {
 
 exports.Request = Request;
 exports.validate = validateRequest;
+exports.validateChildren = validateChildren;
