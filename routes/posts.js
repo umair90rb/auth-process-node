@@ -6,7 +6,7 @@ const {Post, validate, validateComment, validateReply} = require('../models/post
 const express = require('express');
 const router = express.Router();
 
-router.get('/:page/:size', auth, async (req, res, next) => {
+router.get('/:page/:size', auth, async (req, res) => {
   
         page = parseInt(req.params.page);
         size = parseInt(req.params.size);
@@ -20,7 +20,7 @@ router.get('/:page/:size', auth, async (req, res, next) => {
 });
 
 
-router.get('/:id', auth, async (req, res, next) => {
+router.get('/:id', auth, async (req, res) => {
     
         const post = await Post.findById(req.params.id).populate('user', 'email location -_id');
         res.send(post);
