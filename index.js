@@ -14,3 +14,5 @@ const port = process.env.PORT || 3000;
 app.listen(port, () => winston.info(`Listening on port ${port}...`));
 
 // module.exports = server;
+
+// mongodb+srv://newuser:1234@cluster0.mdg6o.mongodb.net/dogluv?retryWrites=true&w=majority

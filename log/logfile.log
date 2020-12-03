@@ -271,3 +271,56 @@
 {"level":"info","message":"Connected to mongodb://localhost/dogluv","timestamp":"2020-12-02T21:14:39.400Z"}
 {"level":"info","message":"Listening on port 3000...","timestamp":"2020-12-02T21:15:59.754Z"}
 {"level":"info","message":"Connected to mongodb://localhost/dogluv","timestamp":"2020-12-02T21:15:59.774Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-12-02T21:18:38.851Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dogluv","timestamp":"2020-12-02T21:18:38.870Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-12-02T21:37:34.483Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dogluv","timestamp":"2020-12-02T21:37:34.500Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-12-02T21:38:12.809Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dogluv","timestamp":"2020-12-02T21:38:12.830Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-12-02T23:24:41.070Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dogluv","timestamp":"2020-12-02T23:24:41.094Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-12-02T23:24:46.083Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dogluv","timestamp":"2020-12-02T23:24:46.116Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-12-02T23:28:49.395Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dogluv","timestamp":"2020-12-02T23:28:49.414Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-12-02T23:29:50.654Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dogluv","timestamp":"2020-12-02T23:29:50.673Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-12-02T23:31:11.662Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dogluv","timestamp":"2020-12-02T23:31:11.689Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-12-02T23:31:30.312Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dogluv","timestamp":"2020-12-02T23:31:30.332Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-12-02T23:35:09.096Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dogluv","timestamp":"2020-12-02T23:35:09.121Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-12-02T23:38:28.210Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dogluv","timestamp":"2020-12-02T23:38:28.231Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-12-02T23:44:32.161Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dogluv","timestamp":"2020-12-02T23:44:32.186Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-12-02T23:46:23.593Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dogluv","timestamp":"2020-12-02T23:46:23.614Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-12-02T23:47:20.349Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dogluv","timestamp":"2020-12-02T23:47:20.370Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-12-02T23:47:31.560Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dogluv","timestamp":"2020-12-02T23:47:31.579Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-12-02T23:48:07.743Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dogluv","timestamp":"2020-12-02T23:48:07.768Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-12-02T23:48:33.012Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dogluv","timestamp":"2020-12-02T23:48:33.033Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-12-02T23:50:29.946Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dogluv","timestamp":"2020-12-02T23:50:29.967Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-12-02T23:52:52.876Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dogluv","timestamp":"2020-12-02T23:52:52.896Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-12-02T23:53:31.478Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dogluv","timestamp":"2020-12-02T23:53:31.502Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-12-02T23:53:38.674Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dogluv","timestamp":"2020-12-02T23:53:38.693Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-12-02T23:58:42.372Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dogluv","timestamp":"2020-12-02T23:58:42.399Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-12-03T00:03:29.022Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dogluv","timestamp":"2020-12-03T00:03:29.043Z"}
+{"message":"helpers is not defined","stack":"ReferenceError: helpers is not defined\n    at C:\\Users\\Umair\\Desktop\\dogluv-backend\\routes\\uploads.js:18:57\n    at newFn (C:\\Users\\Umair\\Desktop\\dogluv-backend\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\Umair\\Desktop\\dogluv-backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\Umair\\Desktop\\dogluv-backend\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at module.exports (C:\\Users\\Umair\\Desktop\\dogluv-backend\\middleware\\auth.js:11:9)\n    at newFn (C:\\Users\\Umair\\Desktop\\dogluv-backend\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\Umair\\Desktop\\dogluv-backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (C:\\Users\\Umair\\Desktop\\dogluv-backend\\node_modules\\express\\lib\\router\\route.js:137:13)\n    at Route.dispatch (C:\\Users\\Umair\\Desktop\\dogluv-backend\\node_modules\\express\\lib\\router\\route.js:112:3)\n    at newFn (C:\\Users\\Umair\\Desktop\\dogluv-backend\\node_modules\\express-async-errors\\index.js:16:20)\n    at Layer.handle [as handle_request] (C:\\Users\\Umair\\Desktop\\dogluv-backend\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at C:\\Users\\Umair\\Desktop\\dogluv-backend\\node_modules\\express\\lib\\router\\index.js:281:22\n    at Function.process_params (C:\\Users\\Umair\\Desktop\\dogluv-backend\\node_modules\\express\\lib\\router\\index.js:335:12)\n    at next (C:\\Users\\Umair\\Desktop\\dogluv-backend\\node_modules\\express\\lib\\router\\index.js:275:10)\n    at Function.handle (C:\\Users\\Umair\\Desktop\\dogluv-backend\\node_modules\\express\\lib\\router\\index.js:174:3)\n    at router (C:\\Users\\Umair\\Desktop\\dogluv-backend\\node_modules\\express\\lib\\router\\index.js:47:12)","level":"error","timestamp":"2020-12-03T00:03:34.138Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-12-03T00:05:24.777Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dogluv","timestamp":"2020-12-03T00:05:24.797Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-12-03T00:06:18.294Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dogluv","timestamp":"2020-12-03T00:06:18.314Z"}
+{"level":"info","message":"Listening on port 3000...","timestamp":"2020-12-03T01:51:16.720Z"}
+{"level":"info","message":"Connected to mongodb://localhost/dogluv","timestamp":"2020-12-03T01:51:16.748Z"}
